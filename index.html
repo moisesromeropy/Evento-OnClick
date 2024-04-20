@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>  
+</head>
+<body>
+    <header>
+            <div id="nav-title">
+                <h1>Dojonary</h1>
+            </div>
+            <div id="nav-search">
+                <input type="text" id="search" placeholder="Search">
+            </div>
+            <div id="nav-button">
+                <button id="btn-login" onclick="btnLogin(this)">Login</button>
+            </div>
+    </header>
+    <main>
+        <div class="container">
+            <article>
+                <div class="container-article-s1">
+                    <h1>ninja</h1>
+                    <p style="font-style: italic;" id="noun">noun</p>
+                    <p>Plural: <span style="font-style: italic;">ninjas</span></p>
+                    <button onclick="alert('Ninjas was liked')" class="btn-likes">13 likes</button>
+                </div>
+                <div class="container-article-s2">
+                    <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                </div>
+            </article>
+            <article>
+                <div class="container-article-s1">
+                    <h1>ninja</h1>
+                    <p style="font-style: italic;" id="noun">noun</p>
+                    <p>Plural: <span style="font-style: italic;">ninjas</span></p>
+                    <button onclick="alert('Ninjas was liked')" class="btn-likes">37 likes</button>
+                </div>
+                <div class="container-article-s2">
+                    <p>A <a href="">programmer</a> who breaks down problemns with <a href="">zen</a>-like focus</p>
+                </div>
+            </article>
+        </div>
+        <aside>
+            <h2>Dojonary is defined by YOU</h2>
+            <button onclick="btnAdd(this)" class="btn-add">Add Definition</button>
+        </aside>
+    </main>
+    
+</body>
+
+</html>
